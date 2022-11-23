@@ -6,6 +6,6 @@ import ("fmt"; "reflect")
 
 func main() {
   // an empty array of size 0
-  s1 := [...]int{}
-  fmt.Println(s1, reflect.TypeOf(s1))
+  a1 := [...]int{}
+  fmt.Println(a1, reflect.TypeOf(a1))
 }
